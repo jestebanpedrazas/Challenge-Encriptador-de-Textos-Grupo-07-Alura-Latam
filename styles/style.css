@@ -1,0 +1,11 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+:root{
+    --colorPrimario: #444;
+    --colorSecundario: #f2f2f2;
+    --colorLetra: #754375
+}
+
