@@ -4,8 +4,124 @@
 }
 
 :root{
-    --colorPrimario: #444;
-    --colorSecundario: #f2f2f2;
-    --colorLetra: #754375
+    --colorPrimario: #00712D;
+    --colorSecundario: #FFFBE6;
+    --colorLetra: #D5ED9F;
+
+    --letraTitulo:"New Amsterdam", sans-serif;
+    --letraTituloPeso:400;
+    --letraTituloEstilo: normal;
+
+    --letraTexto: "New Amsterdam", sans-serif;
+    --letraTextoPeso: 400;
+    --letraTextoEstilo: normal;
 }
 
+.icons{
+    height:25px;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.header{
+    background-color: var(--colorSecundario);
+    font-family: var(--letraTitulo);
+    font-weight: var(--letraTituloPeso);
+    font-style: var(--letraTituloEstilo);
+    padding: 15px;
+    border: solid 2px;
+
+}
+.main{
+
+    padding: 15% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--colorPrimario);
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 1000px;
+    font-family: var(--letraTexto);
+    font-weight: var(--letraTextoPeso);
+    font-style: var(--letraTextoEstilo);
+
+    
+
+}
+
+.mainSectionDiv{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items:flex-start;
+    justify-items: end;
+    
+}
+.mainSectionDivH{
+    padding: 15px;
+    width: 470px;
+    font-family: var(--letraTexto);
+    font-weight: var(--letraTextoPeso);
+    font-style: var(--letraTextoEstilo);
+    border: 2px solid;
+}
+.containerInput{
+    padding: 15px;
+    width: 470px;
+    height: 50px;
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+    font-family: var(--letraTexto);
+    font-weight: var(--letraTextoPeso);
+    font-style: var(--letraTextoEstilo);
+}
+.mainSectionDivP{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    padding: 15px;
+    width: 470px;
+    align-items: center;
+    font-family: var(--letraTexto);
+    font-weight: var(--letraTextoPeso);
+    font-style: var(--letraTextoEstilo);
+}
+
+.mainSectionDivB{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+
+.footer{
+    color:black;
+    background-color: var(--colorSecundario);
+    padding: 20px;
+    text-align: center;
+    font-family: var(--letraTitulo);
+    font-weight: var(--letraTituloPeso);
+    font-style: var(--letraTituloEstilo);
+    font-size: 25px;
+    border: 2px solid;
+}
