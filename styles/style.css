@@ -163,3 +163,39 @@ button:hover {
     font-size: 2rem;
     border: 2px solid;
 }
+
+@media (max-width: 625px) {
+    .mainSection {
+        flex-direction: column; 
+        gap: 3%; 
+    }
+
+    .mainSectionDiv {
+        max-width: 100%;
+    }
+
+    .mainSectionDivB {
+        flex-direction: column; 
+        gap: 2%; 
+        margin-top: 2%; 
+    }
+
+    .footer {
+        font-size: 2%; 
+    }
+}
+
+@media (max-width: 210px) {
+    .header {
+        font-size: 2%; 
+        padding: 1.5%; 
+    }
+
+    .containerInput {
+        height: 35%; 
+    }
+
+    .footer {
+        font-size: 1.5%; 
+    }
+}
