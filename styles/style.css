@@ -22,7 +22,7 @@
 body {
     margin: 0;
     padding: 0;
-    color: black; /* Mantener el texto en color negro */
+    color: black; 
     font-family: var(--letraTexto);
     font-weight: var(--letraTextoPeso);
     font-style: var(--letraTextoEstilo);
@@ -40,6 +40,7 @@ body {
     font-style: var(--letraTituloEstilo);
     padding: 15px;
     border: 2px solid;
+    font-size: 1rem;
 }
 
 .main {
@@ -50,7 +51,7 @@ body {
     flex-direction: column;
     gap: 40px;
     background-color: var(--colorPrimario);
-    color: black; /* Mantener el texto en color negro */
+    color: black; 
 }
 
 .mainSection {
@@ -62,7 +63,7 @@ body {
     font-family: var(--letraTexto);
     font-weight: var(--letraTextoPeso);
     font-style: var(--letraTextoEstilo);
-    color: black; /* Mantener el texto en color negro */
+    color: black; 
 }
 
 .mainSectionDiv {
@@ -71,6 +72,7 @@ body {
     width: 100%;
     max-width: 500px;
     align-items: flex-start;
+    font-size: 1rem;
 }
 
 .mainSectionDivH {
@@ -80,15 +82,16 @@ body {
     font-family: var(--letraTexto);
     font-weight: var(--letraTextoPeso);
     font-style: var(--letraTextoEstilo);
-    border: 2px solid ; /* Mantener el borde */
-    color: black; /* Mantener el texto en color negro */
+    font-size: 1rem;
+    border: 2px solid ; 
+    color: black; 
 }
 
 .containerInput {
     padding: 15px;
     width: 100%;
-    height: 250px;
-    border: 2px solid ; /* Mantener los bordes */
+    height: 250px; 
+    border: 2px solid; 
     border-top: none;
     border-bottom: none;
     text-decoration: none;
@@ -97,21 +100,27 @@ body {
     font-family: var(--letraTexto);
     font-weight: var(--letraTextoPeso);
     font-style: var(--letraTextoEstilo);
-    color: black; /* Mantener el texto en color negro */
+    font-size: 1rem;
+    color: black; 
+    overflow: auto; 
+    box-sizing: border-box; 
+    resize: vertical; 
 }
+
 
 .mainSectionDivP {
     background-color: var(--colorLetra);
     display: flex;
     justify-content: space-between;
-    border: 2px solid ; /* Mantener el borde */
+    border: 2px solid ; 
     padding: 15px;
     width: 100%;
     align-items: center;
     font-family: var(--letraTexto);
     font-weight: var(--letraTextoPeso);
     font-style: var(--letraTextoEstilo);
-    color: black; /* Mantener el texto en color negro */
+    font-size: 1rem;
+    color: black; 
 }
 
 .mainSectionDivB {
@@ -120,37 +129,37 @@ body {
     gap: 50px;
     margin-top: 50px;
     margin-left: auto;
+    font-size: 1rem;
 }
 
 button {
-    background-color: var(--colorBoton); /* Fondo del botón usando la variable de color primario */
-    color: var(--colorSecundario); /* Texto del botón en color secundario */
-    padding: 10px 20px; /* Espaciado interno del botón */
-    border: 2px solid black; /* Borde del botón */
-    border-radius: 5px; /* Bordes redondeados */
-    font-family: var(--letraTexto); /* Fuente del texto */
-    font-weight: var(--letraTextoPeso); /* Peso del texto */
-    font-style: var(--letraTextoEstilo); /* Estilo del texto */
-    font-size: 16px; /* Tamaño del texto */
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave para hover */
-
+    background-color: var(--colorBoton);
+    color: var(--colorSecundario); 
+    padding: 10px 20px; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    font-family: var(--letraTexto); 
+    font-weight: var(--letraTextoPeso); 
+    font-style: var(--letraTextoEstilo); 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 button:hover {
-    background-color: var(--colorSecundario); /* Cambia el fondo al color secundario al hacer hover */
-    color: var(--colorBoton); /* Cambia el texto al color primario al hacer hover */
+    background-color: var(--colorSecundario); 
+    color: var(--colorBoton); 
 }
 
 
 .footer {
-    color: black; /* Mantener el texto en color negro */
+    color: black; 
     background-color: var(--colorSecundario);
     padding: 20px;
     text-align: center;
     font-family: var(--letraTitulo);
     font-weight: var(--letraTituloPeso);
     font-style: var(--letraTituloEstilo);
-    font-size: 25px;
+    font-size: 2rem;
     border: 2px solid;
 }

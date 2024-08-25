@@ -17,21 +17,37 @@
         <section class="mainSection">
             <div class="mainSectionDiv">
                 <h3 class="mainSectionDivH">Texto a Encriptar</h3>
-                <input type="text" placeholder="Ingrese aquí su texto a encriptar" id="textoEncriptar" class="containerInput">
-                <p class="mainSectionDivP">Solo letras minúsculas y sin acentos <button><img class="icons" src="./assets/basura.png" alt="icono basura"></button></p>
+                <textarea placeholder="Ingrese aquí su texto a encriptar" id="textoEncriptar" class="containerInput"></textarea>
+                <p class="mainSectionDivP">Solo letras minúsculas y sin acentos 
+                    <button id="borrarBotonEncriptar" onclick="limpiarCampo('textoEncriptar')">
+                        <img class="icons" src="./assets/basura.png" alt="icono basura">
+                    </button>
+                </p>
                 <p class="mainSectionDivB">
-                    <button>Encriptar</button>
-                    <button>Copiar</button>
+                    <button id="botonEncriptar" onclick="encriptarYMostrar()">
+                        Encriptar
+                    </button>
+                    <button id="copiarBotonEncriptar" onclick="copiarTexto('textoEncriptar')">
+                        Copiar
+                    </button>
                 </p>
             </div>
             
             <div class="mainSectionDiv">
                 <h3 class="mainSectionDivH">Texto a Desencriptar</h3>
-                <input type="text" placeholder="Ingrese aquí su texto a desencriptar" id="textoDesencriptar" class="containerInput">
-                <p class="mainSectionDivP">Solo letras minúsculas y sin acentos <button><img class="icons" src="./assets/basura.png" alt="icono basura"></button></p>
+                <textarea placeholder="Ingrese aquí su texto a desencriptar" id="textoDesencriptar" class="containerInput"></textarea>
+                <p class="mainSectionDivP">Solo letras minúsculas y sin acentos 
+                    <button id="borrarBotonDesencriptar" onclick="limpiarCampo('textoDesencriptar')">
+                        <img class="icons" src="./assets/basura.png" alt="icono basura">
+                    </button>
+                </p>
                 <p class="mainSectionDivB">
-                    <button>Desencriptar</button>
-                    <button>Copiar</button>
+                    <button id="botonDesencriptar" onclick="desencriptarYMostrar()">
+                        Desencriptar
+                    </button>
+                    <button id="CopiarBotonDesencriptar" onclick="copiarTexto('textoDesencriptar')">
+                        Copiar
+                    </button>
                 </p>
             </div>
         </section>
@@ -41,4 +57,7 @@
     </footer>
 </body>
 </html>
+
+
+
 
